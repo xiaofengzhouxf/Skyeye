@@ -1,0 +1,6 @@
+$def with (errCode,errMsg)
+
+if errCode || errMsg:
+	fail: $errCode --> $errMsg
+else:
+	failed.
